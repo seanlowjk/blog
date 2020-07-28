@@ -1,0 +1,17 @@
+.Semester {
+  .semester-container {
+    .semester-cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      .semester-card {
+        width: 30rem;
+        height: 12.5rem;
+        margin: 2vh 1vw 2vh 1vw;
+      }
+    }
+  }
+}
