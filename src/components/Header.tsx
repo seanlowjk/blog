@@ -16,7 +16,7 @@ function Header() {
         expanded={isOpen}
         fixed="top"
       >
-        <Nav.Link style={{ color: "black" }} href="/">
+        <Nav.Link style={{ color: "black" }} href="/blog/#/">
           Sean Low
         </Nav.Link>
         <Navbar.Toggle
