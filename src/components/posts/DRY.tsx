@@ -135,7 +135,7 @@ function DRY() {
         purpose. Please do remember to plan before coding!
       </p>
 
-      <Button variant="dark" href="/misc/">
+      <Button variant="dark" href="/blog/#/misc/">
         Back To Posts
       </Button>
     </Card>
