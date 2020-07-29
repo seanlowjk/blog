@@ -25,13 +25,13 @@ function Header() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/#/" onClick={closeDropdown}>
+            <Nav.Link href="/blog/#/" onClick={closeDropdown}>
               Home
             </Nav.Link>
-            <Nav.Link href="/#/modules/" onClick={closeDropdown}>
+            <Nav.Link href="/blog/#/modules/" onClick={closeDropdown}>
               Modules
             </Nav.Link>
-            <Nav.Link href="/#/misc/" onClick={closeDropdown}>
+            <Nav.Link href="/blog/#/misc/" onClick={closeDropdown}>
               Misc
             </Nav.Link>
           </Nav>

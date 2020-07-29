@@ -20,7 +20,7 @@ function SemesterCard(props: SemesterCardProps) {
           {!module.isSUable && !module.isGradeFree && (
             <h6>S/U Option Not Available</h6>
           )}
-          <Button variant="dark" href={`/#${module.content?.link}`}>
+          <Button variant="dark" href={`/blog/#${module.content?.link}`}>
             Link
           </Button>
         </Card.Body>
