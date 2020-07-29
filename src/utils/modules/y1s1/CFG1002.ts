@@ -36,7 +36,7 @@ const CFG1002: ModuleContent = {
     "Nothing difficult to be honest, except the preparation of the resume which might be a hassle.",
   ],
   grade: ["Expected: CS", "Actual: CS"],
-  link: "/blog/modules/CFG1002",
+  link: "/modules/CFG1002",
 };
 
 export default CFG1002;

@@ -44,7 +44,7 @@ const CS2030: ModuleContent = {
     "Concepts are pretty abstract and you might fall behind at certain points. Good to have study groups th help each other out of lab assignments and tutorials.",
   ],
   grade: ["Expected: A", "Actual: A-"],
-  link: "/blog/modules/CS2030",
+  link: "/modules/CS2030",
 };
 
 export default CS2030;

@@ -45,7 +45,7 @@ const CS2040: ModuleContent = {
     "The content is non-trivial despite it being pretty straightforwards. Be careful not to just merely memorize the algorithms covered but to understand and apply these algorithms.",
   ],
   grade: ["Expected: B+", "Actual: B"],
-  link: "/blog/modules/CS2040",
+  link: "/modules/CS2040",
 };
 
 export default CS2040;

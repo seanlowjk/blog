@@ -40,7 +40,7 @@ const CS2100: ModuleContent = {
     "There is a lot of content to cover! Do not leave CS2100 content to the last minute!",
   ],
   grade: ["Expected: B+", "Actual: B-"],
-  link: "/blog/modules/CS2100",
+  link: "/modules/CS2100",
 };
 
 export default CS2100;

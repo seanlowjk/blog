@@ -35,7 +35,7 @@ const CS3243: ModuleContent = {
     "If your CS1231/S and CS2040/S fundamentals are not strong, you might suffer here a bit due to the heavy math.",
   ],
   grade: ["Expected: B+", "Actual: B"],
-  link: "/blog/modules/CS3243",
+  link: "/modules/CS3243",
 };
 
 export default CS3243;

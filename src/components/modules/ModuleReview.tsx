@@ -36,7 +36,7 @@ function ModuleReview(props: ModuleReviewProps) {
             paragraphs={content.difficulty}
           />
           <ModuleGeneralText title={"Grade"} paragraphs={content.grade} />
-          <Button variant="dark" href="/blog/modules/">
+          <Button variant="dark" href="/modules/">
             Back To Module Reviews
           </Button>
         </Container>

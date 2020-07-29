@@ -26,7 +26,7 @@ const MA1521: ModuleContent = {
     "The questions are not difficult for finals, but the bell curve is really steep.",
   ],
   grade: ["Expected: A-", "Actual: A-"],
-  link: "/blog/modules/MA1521",
+  link: "/modules/MA1521",
 };
 
 export default MA1521;

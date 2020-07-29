@@ -35,7 +35,7 @@ const ES2660: ModuleContent = {
   ],
   difficulty: ["5/10", "Not difficult, but not easy to score either."],
   grade: ["Expected: B+", "Actual: B"],
-  link: "/blog/modules/ES2660",
+  link: "/modules/ES2660",
 };
 
 export default ES2660;

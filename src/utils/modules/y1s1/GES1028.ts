@@ -32,7 +32,7 @@ const GES1028: ModuleContent = {
   ],
   difficulty: ["8/10", "I cannot write for nuts.."],
   grade: ["Expected: B-", "Actual: B"],
-  link: "/blog/modules/GES1028",
+  link: "/modules/GES1028",
 };
 
 export default GES1028;

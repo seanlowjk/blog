@@ -37,7 +37,7 @@ const CS1231: ModuleContent = {
     "Always be careful of graph theory.",
   ],
   grade: ["Expected: B+ / A-", "Actual:B+-"],
-  link: "/blog/modules/CS1231",
+  link: "/modules/CS1231",
 };
 
 export default CS1231;

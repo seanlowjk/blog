@@ -28,7 +28,7 @@ const IS1103: ModuleContent = {
   ],
   difficulty: ["3/10", "Nothing difficult to be honest, except the bell curve"],
   grade: ["Expected: B+", "Actual:A+"],
-  link: "/blog/modules/IS1103",
+  link: "/modules/IS1103",
 };
 
 export default IS1103;

@@ -15,7 +15,7 @@ const ALS1010: ModuleContent = {
   ],
   difficulty: ["3/10", "Nothing difficult to be honest."],
   grade: ["Expected: CS", "Actual: CS"],
-  link: "/blog/modules/ALS1010",
+  link: "/modules/ALS1010",
 };
 
 export default ALS1010;

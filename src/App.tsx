@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Main from "./pages/Main";
 import Modules from "./pages/Modules";
@@ -14,13 +14,13 @@ import BlogPost from "./components/common/BlogPost";
 function App() {
   return (
     <div>
-      <Header />
       {
-        <BrowserRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
+          <Header />
           <Switch>
-            <Route path="/blog" exact={true} render={Main} />
-            <Route path="/blog/modules" exact={true} render={Modules} />
-            <Route path="/blog/misc" exact={true} render={Misc} />
+            <Route path="/" exact={true} render={Main} />
+            <Route path="/modules" exact={true} render={Modules} />
+            <Route path="/misc" exact={true} render={Misc} />
 
             {ModuleContents.map((semester) =>
               semester.modules
@@ -28,7 +28,6 @@ function App() {
                 .map((module) => (
                   <Route
                     path={module.content?.link}
-                    exact={true}
                     component={() => (
                       <ModuleReview
                         title={module.title}
@@ -47,7 +46,7 @@ function App() {
               />
             ))}
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       }
       <Contact />
     </div>

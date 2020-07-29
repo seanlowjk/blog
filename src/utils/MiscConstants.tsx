@@ -8,7 +8,7 @@ export const MiscCardInfos: MiscCardInfo[] = [
     title: "Don't Repeat Yourself (DRY)",
     subtitle:
       "This article talks about some bad practices i did during my internship",
-    href: "/blog/misc/dry",
+    href: "/misc/dry",
     content: <DRY />,
   },
 ];

@@ -30,7 +30,7 @@ const GEH1030: ModuleContent = {
     "Not easy to score, but not easy to fail either. Be careful of the steep bell curve in this module.",
   ],
   grade: ["Expected: A-", "Actual: A"],
-  link: "/blog/modules/GEH1030",
+  link: "/modules/GEH1030",
 };
 
 export default GEH1030;

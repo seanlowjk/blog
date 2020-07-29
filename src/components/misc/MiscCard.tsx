@@ -16,7 +16,7 @@ function MiscCard(props: MiscCardProps) {
         <Card.Body>
           <h5> {title}</h5>
           <p> {subtitle}</p>
-          <Button variant="dark" href={href}>
+          <Button variant="dark" href={`/#${href}`}>
             Link
           </Button>
         </Card.Body>

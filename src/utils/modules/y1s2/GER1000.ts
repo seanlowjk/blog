@@ -36,7 +36,7 @@ const GER1000: ModuleContent = {
     "Steep Bell Curve is present due to everyone getting almost full marks for online quizzes and tutorial attendance.",
   ],
   grade: ["Expected: A-", "Actual: A"],
-  link: "/blog/modules/GER1000",
+  link: "/modules/GER1000",
 };
 
 export default GER1000;

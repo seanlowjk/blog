@@ -34,7 +34,7 @@ const MA1101R: ModuleContent = {
     "Content is definitely heavier as compared to MA1521. However, it is definitely more interesting as such.",
   ],
   grade: ["Expected: B+", "Actual: A"],
-  link: "/blog/modules/MA1101R",
+  link: "/modules/MA1101R",
 };
 
 export default MA1101R;

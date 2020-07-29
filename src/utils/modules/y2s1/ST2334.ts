@@ -28,7 +28,7 @@ const ST2334: ModuleContent = {
     "The questions are not as simple as MA1521 clearly. Sufficient understanding and practice is needed befroe you can confidently grasp the concepts involved in this module.",
   ],
   grade: ["Expected: A-", "Actual: B+"],
-  link: "/blog/modules/ST2334",
+  link: "/modules/ST2334",
 };
 
 export default ST2334;

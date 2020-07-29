@@ -35,7 +35,7 @@ const CS3241: ModuleContent = {
     "MA1101R knowledge is good to help you along this module.",
   ],
   grade: ["Expected: B+", "Actual: B"],
-  link: "/blog/modules/CS3241",
+  link: "/modules/CS3241",
 };
 
 export default CS3241;

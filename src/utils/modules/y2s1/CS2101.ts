@@ -40,7 +40,7 @@ const CS2101: ModuleContent = {
     "As long as you had prior experience doing group presentatios, it should not be too difficult.",
   ],
   grade: ["Expected: B+", "Actual: A-"],
-  link: "/blog/modules/CS2101",
+  link: "/modules/CS2101",
 };
 
 export default CS2101;

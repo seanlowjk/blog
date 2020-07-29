@@ -32,7 +32,7 @@ const CS2105: ModuleContent = {
     "Labs can be challenging if you do not understand the lecture content. The differentiating factor will be midterms and finals.",
   ],
   grade: ["Expected: B+", "Actual: B+"],
-  link: "/blog/modules/CS2105",
+  link: "/modules/CS2105",
 };
 
 export default CS2105;

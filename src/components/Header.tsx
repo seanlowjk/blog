@@ -16,7 +16,7 @@ function Header() {
         expanded={isOpen}
         fixed="top"
       >
-        <Nav.Link style={{ color: "black" }} href="/blog/">
+        <Nav.Link style={{ color: "black" }} href="/">
           Sean Low
         </Nav.Link>
         <Navbar.Toggle
@@ -25,13 +25,13 @@ function Header() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/blog/#home" onClick={closeDropdown}>
+            <Nav.Link href="/#/" onClick={closeDropdown}>
               Home
             </Nav.Link>
-            <Nav.Link href="/blog/modules/" onClick={closeDropdown}>
+            <Nav.Link href="/#/modules/" onClick={closeDropdown}>
               Modules
             </Nav.Link>
-            <Nav.Link href="/blog/misc/" onClick={closeDropdown}>
+            <Nav.Link href="/#/misc/" onClick={closeDropdown}>
               Misc
             </Nav.Link>
           </Nav>

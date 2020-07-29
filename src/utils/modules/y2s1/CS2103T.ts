@@ -36,7 +36,7 @@ const CS2103T: ModuleContent = {
     "The main difficulty comes with writing documentation, doing version control and the finals.",
   ],
   grade: ["Expected: A-", "Actual: B+"],
-  link: "/blog/modules/CS2103T",
+  link: "/modules/CS2103T",
 };
 
 export default CS2103T;

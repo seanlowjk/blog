@@ -37,7 +37,7 @@ const CS1101S: ModuleContent = {
     "This is not a module I breezed through. I definitely had issues in the first half of the semester understanding wishful thinking and not hard cording through every mission I go through.",
   ],
   grade: ["Expected: A-", "Actual: A-"],
-  link: "/blog/modules/CS1101S",
+  link: "/modules/CS1101S",
 };
 
 export default CS1101S;

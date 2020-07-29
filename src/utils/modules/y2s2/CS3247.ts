@@ -39,7 +39,7 @@ const CS3247: ModuleContent = {
     "The Assignments are pretty difficult and time-consuming. Be prepared to spend A LOT of time for this module.",
   ],
   grade: ["Expected: A", "Actual: A"],
-  link: "/blog/modules/CS3247",
+  link: "/modules/CS3247",
 };
 
 export default CS3247;

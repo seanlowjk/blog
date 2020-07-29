@@ -35,7 +35,7 @@ const PC1221: ModuleContent = {
     "One does not simply expect 50% of H2 Physics squeezed into 3 months to be a piece of cake..",
   ],
   grade: ["Expected: B+", "Actual: B+"],
-  link: "/blog/modules/PC1221",
+  link: "/modules/PC1221",
 };
 
 export default PC1221;

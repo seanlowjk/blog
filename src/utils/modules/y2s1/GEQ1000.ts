@@ -36,7 +36,7 @@ const GEQ1000: ModuleContent = {
     "Content is straightforward if you follow the online lectures.",
   ],
   grade: ["Expected: CS", "Actual: CS"],
-  link: "/blog/modules/GEQ1000",
+  link: "/modules/GEQ1000",
 };
 
 export default GEQ1000;
