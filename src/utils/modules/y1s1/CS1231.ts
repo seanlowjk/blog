@@ -36,7 +36,7 @@ const CS1231: ModuleContent = {
     "Providing and Predicate Logic might be a bit hard to grasp at first. However, practice will really make you better at such concepts.",
     "Always be careful of graph theory.",
   ],
-  grade: ["Expected: B+ / A-", "Actual:B+-"],
+  grade: ["Expected: B+ / A-", "Actual: B+ "],
   link: "/modules/CS1231",
 };
 

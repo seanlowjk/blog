@@ -27,7 +27,7 @@ const IS1103: ModuleContent = {
     "Do the Quizzes and you'll be fine. The report can be done within a few days.",
   ],
   difficulty: ["3/10", "Nothing difficult to be honest, except the bell curve"],
-  grade: ["Expected: B+", "Actual:A+"],
+  grade: ["Expected: B+", "Actual: A+"],
   link: "/modules/IS1103",
 };
 
