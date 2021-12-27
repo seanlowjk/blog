@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Main from "./pages/Main";
@@ -8,10 +8,19 @@ import ModuleReview from "./components/modules/ModuleReview";
 import Contact from "./components/contact/Contact";
 import { ModuleContents } from "./utils/ModuleContsants";
 import Misc from "./pages/Misc";
-import { MiscCardInfos } from "./utils/MiscConstants";
-import BlogPost from "./components/common/BlogPost";
+import MiscRouter from "./routes/MiscRouter";
+import { MiscPost, MISC_JSON_DATA_REPO } from "./utils/MiscConstants";
 
 function App() {
+  const [miscPostsInfo, setMiscPostsInfo] = useState<MiscPost[]>([]);
+
+  useEffect(() => {
+    fetch(MISC_JSON_DATA_REPO)
+      .then(res => res.json())
+      .then(res => setMiscPostsInfo(res.pages || []))
+  }, [])
+
+
   return (
     <div>
       {
@@ -20,7 +29,9 @@ function App() {
           <Switch>
             <Route path="/" exact={true} render={Main} />
             <Route path="/modules" exact={true} render={Modules} />
-            <Route path="/misc" exact={true} render={Misc} />
+            <Route path="/misc" exact={true}>
+              <Misc miscPostsInfo={miscPostsInfo} />
+            </Route>
 
             {ModuleContents.map((semester) =>
               semester.modules
@@ -38,13 +49,7 @@ function App() {
                 ))
             )}
 
-            {MiscCardInfos.map((info) => (
-              <Route
-                path={info.href}
-                exact={true}
-                component={() => <BlogPost content={info.content} />}
-              />
-            ))}
+            <MiscRouter miscPostsInfo={miscPostsInfo} />
           </Switch>
         </HashRouter>
       }

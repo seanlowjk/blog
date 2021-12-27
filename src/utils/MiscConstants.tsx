@@ -1,22 +1,8 @@
-import React from "react";
+export type MiscPost = {
+  title: string, 
+  subtitle: string, 
+  href: string, 
+  location: string
+};
 
-import { MiscCardInfo } from "./MiscTypes";
-import DRY from "../components/posts/DRY";
-import Teaching from "../components/posts/Teaching";
-
-export const MiscCardInfos: MiscCardInfo[] = [
-  {
-    title: "Don't Repeat Yourself (DRY)",
-    subtitle:
-      "This article talks about some bad practices i did during my internship",
-    href: "/misc/dry",
-    content: <DRY />,
-  },
-  {
-    title: "My Teaching Career in NUS",
-    subtitle:
-      "This article talks about my part-time teaching experience in NUS",
-    href: "/misc/teaching",
-    content: <Teaching />,
-  },
-];
+export const MISC_JSON_DATA_REPO = `${process.env.REACT_APP_DATA_REPO}/misc/pages.json`
