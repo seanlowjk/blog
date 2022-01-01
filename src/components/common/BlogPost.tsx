@@ -6,10 +6,11 @@ import remarkGfm from 'remark-gfm';
 type BlogPostProps = {
   baseURL: string; 
   location: string; 
+  homepage: string;
 };
 
 function BlogPost(props: BlogPostProps) {
-  const { baseURL, location } = props;
+  const { baseURL, location, homepage } = props;
   const [content, setContent] = useState<string>("");
 
   useEffect(() => {
@@ -23,8 +24,8 @@ function BlogPost(props: BlogPostProps) {
       <Container className="blog-container">
         <Card className="blog-content">
           <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} />
-          <Button variant="dark" href="/blog/#/misc/">
-            Back To Posts
+          <Button variant="dark" href={homepage}>
+            Back
           </Button>
         </Card>
       </Container>

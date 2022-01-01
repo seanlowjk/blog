@@ -15,7 +15,11 @@ function MiscRouter(props: MiscRouterProps) {
         path={info.href}
         exact={true}
         component={() => 
-          <BlogPost baseURL={process.env.REACT_APP_DATA_REPO || ""} location={info.location} />
+          <BlogPost 
+            baseURL={process.env.REACT_APP_DATA_REPO || ""} 
+            location={info.location} 
+            homepage={"/blog/#/misc/"}
+          />
         }
       />
     ))}

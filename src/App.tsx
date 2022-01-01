@@ -62,6 +62,7 @@ function App() {
                       <BlogPost
                         baseURL={process.env.REACT_APP_DATA_REPO || ""}
                         location={module.content}
+                        homepage={"/blog/#/modules/"}
                       />
                     )}
                   />
