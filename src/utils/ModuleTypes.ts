@@ -10,7 +10,8 @@ export type ModuleItem = {
   type: string;
   isGradeFree: boolean;
   isSUable: boolean;
-  content: ModuleContent;
+  content: string;
+  link: string;
 };
 
 export type GradingComponent = {

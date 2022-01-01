@@ -6,3 +6,4 @@ export type MiscPost = {
 };
 
 export const MISC_JSON_DATA_REPO = `${process.env.REACT_APP_DATA_REPO}/misc/pages.json`
+export const MODULES_JSON_DATA_REPO = `${process.env.REACT_APP_DATA_REPO}/modules/pages.json`

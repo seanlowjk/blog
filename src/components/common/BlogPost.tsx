@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card, Container } from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from 'remark-gfm';
 
 type BlogPostProps = {
   baseURL: string; 
@@ -21,7 +22,7 @@ function BlogPost(props: BlogPostProps) {
     <div className="Blog">
       <Container className="blog-container">
         <Card className="blog-content">
-          <ReactMarkdown children={content}/>
+          <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} />
           <Button variant="dark" href="/blog/#/misc/">
             Back To Posts
           </Button>

@@ -1,16 +1,24 @@
 import React from "react";
 import Semester from "../components/modules/Semester";
-import { ModuleContents } from "../utils/ModuleContsants";
 import Introduction from "../components/Introduction";
+import { SemesterItem } from "../utils/ModuleTypes";
 
-function Modules() {
+type Props = {
+  semesters: SemesterItem[];
+}
+
+function Modules(props: Props) {
+  const { semesters } = props;
+
+  console.log(semesters);
+
   return (
     <div>
       <Introduction
         title={"NUS Modules"}
         subtitle={"Scroll Down to view my module reviews! "}
       />
-      {ModuleContents.map((semester) => (
+      {semesters.map((semester) => (
         <Semester semesterInformation={semester} />
       ))}
     </div>

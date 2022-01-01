@@ -8,5 +8,11 @@
     .blog-content {
       border: none;
     }
+
+    table, tr, th, td {
+      border-width: 1px;
+      border-color: #212529;
+      border-style: solid;
+    }
   }
 }
